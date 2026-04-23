@@ -1,0 +1,27 @@
+{
+  "name": "podium",
+  "version": "1.0.0",
+  "description": "Podium é um orquestrador de testes automatizados E2E",
+  "keywords": [
+    "tester"
+  ],
+  "homepage": "https://github.com/Solractys/Podium#readme",
+  "bugs": {
+    "url": "https://github.com/Solractys/Podium/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solractys/Podium.git"
+  },
+  "license": "ISC",
+  "author": "solractys",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
